@@ -1,0 +1,31 @@
+name: flutter_sync_package
+description: A Flutter package for offline-first data synchronization with Firebase
+version: 1.0.0
+homepage: https://github.com/yourusername/flutter_sync_package
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.9.0
+  cloud_firestore: ^5.6.8
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^0.13.6
+  connectivity_plus: ^5.0.1
+  workmanager: ^0.6.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  hive_generator: ^2.0.1
+
+flutter:
+  # No flutter-specific dependencies needed for this package 
